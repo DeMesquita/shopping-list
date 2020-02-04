@@ -1,0 +1,77 @@
+* {
+    margin-top: 10;
+    padding: 0;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background: black;
+    }
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 65%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background: black;
+    }
+    #content {
+        width: auto;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: black;
+    }
+    #header {
+        height: auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #sidebar {
+        display: none;
+    }
+}
+
+body {
+    background: black;
+}
+
+#app {
+    background: white;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.wrapper-scroll-y {
+    display: block;
+}
+
+h5 {
+    text-align: center;
+}
+
